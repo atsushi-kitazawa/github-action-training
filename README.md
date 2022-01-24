@@ -1,1 +1,1 @@
-#github action training reository.
+# github action training reository.
