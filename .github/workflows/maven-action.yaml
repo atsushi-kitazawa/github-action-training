@@ -15,5 +15,11 @@ jobs:
           distribution: "adopt"
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
+
+  echo:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
       - name: echo
         run: echo github-action-trainig
